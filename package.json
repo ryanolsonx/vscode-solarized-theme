@@ -1,29 +1,35 @@
 {
-  "name": "solarized",
-  "version": "0.0.1",
-  "displayName": "Solarized",
-  "description": "Optimized Solarized theme for VS Code",
-  "publisher": "ryanolsonx",
-  "repository": "https://github.com/ryanolsonx/vscode-solarized-theme",
-  "license": "MIT",
-  "icon": "icon.png",
-  "keywords": ["solarized", "dark", "light"],
-  "engines": {
-    "vscode": "^1.20.0"
-  },
-  "categories": ["Themes"],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Solarized Dark+",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-color-theme.json"
-      },
-      {
-        "label": "Solarized Light+",
-        "uiTheme": "vs",
-        "path": "./themes/light-color-theme.json"
-      }
-    ]
-  }
+    "name": "solarized",
+    "version": "0.0.1",
+    "displayName": "Solarized",
+    "description": "Optimized Solarized theme for VS Code",
+    "publisher": "ryanolsonx",
+    "repository": "https://github.com/ryanolsonx/vscode-solarized-theme",
+    "license": "MIT",
+    "icon": "icon.png",
+    "keywords": [
+        "solarized",
+        "dark",
+        "light"
+    ],
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Dark+",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-color-theme.json"
+            },
+            {
+                "label": "Solarized Light+",
+                "uiTheme": "vs",
+                "path": "./themes/light-color-theme.json"
+            }
+        ]
+    }
 }
