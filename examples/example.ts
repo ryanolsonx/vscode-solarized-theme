@@ -4,13 +4,17 @@ declare const atom: any;
 declare const __dirname: any;
 declare const module: any;
 
+interface ITriggerPoint {
+  location: ITriggerPointLocation;
+}
+
 const path = require("path");
 const { AutoLanguageClient } = require("atom-languageclient");
 const { filter } = require("fuzzaldrin-plus");
 
 interface ITriggerPointLocation {
-  row: number;
-  column: number;
+  arow: number;
+  acolumn: number;
 }
 
 class TypeScriptLanguageClient extends AutoLanguageClient {
@@ -63,8 +67,8 @@ class TypeScriptLanguageClient extends AutoLanguageClient {
     if (triggerChars.includes(request.prefix)) return request.bufferPosition;
 
     return {
-      row: request.bufferPosition.row,
-      column: request.bufferPosition.column - request.prefix.length
+      arow: request.bufferPosition.row,
+      acolumn: request.bufferPosition.column - request.prefix.length
     };
   }
 
