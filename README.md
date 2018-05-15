@@ -2,6 +2,8 @@
 
 Based on the built-in solarized theme, I've improved the dark and light solarized themes to look more like solarized (as seen in website and in vim).
 
+After install, the themes are called 'Solarized Light+' and 'Solarized Dark+'.
+
 ## Screenshots
 
 ### Dark Screenshot
