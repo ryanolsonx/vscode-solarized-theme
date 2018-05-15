@@ -27,7 +27,9 @@
 		"editor.lineHighlightBackground": "#eee8d5",
 		"editorCursor.foreground": "#657b83",
 		"editorWhitespace.foreground": "#586e7580",
-		"editorLineNumber.foreground": "#a9afaa",
+		"editorLineNumber.foreground": "#9ca8a6",
+		"editorLineNumber.activeForeground": "#6f7776",
+		"editorGutter.background": "#eee8d5",
 		"peekViewTitle.background": "#eee8d5",
 		"peekView.border": "#b58900",
 		"peekViewResult.background": "#eee8d5",
@@ -71,7 +73,7 @@
 		"terminal.ansiWhite": "#eee8d5",
 		"terminal.ansiBrightBlack": "#657b83",
 		"terminal.ansiBrightRed": "#cb4b16",
-		"terminal.ansiBrightGreen": "#586e75",
+		"terminal.ansiBrightGreen": "#859900",
 		"terminal.ansiBrightYellow": "#657b83",
 		"terminal.ansiBrightBlue": "#839496",
 		"terminal.ansiBrightMagenta": "#6c71c4",
@@ -574,6 +576,12 @@
 			"scope": "keyword.control.from",
 			"settings": {
 				"foreground": "#cb4b16"
+			}
+		},
+		{
+			"scope": "source",
+			"settings": {
+				"foreground": "#657b83"
 			}
 		}
 	]
