@@ -22,7 +22,7 @@
 		"progressBar.background": "#b58900",
 		"editor.background": "#fdf6e3",
 		"editorWidget.background": "#eee8d5",
-		"editor.selectionBackground": "#eee8d5",
+		"editor.selectionBackground": "#93a1a1",
 		"editorHoverWidget.background": "#ccc4b0",
 		"editor.lineHighlightBackground": "#eee8d5",
 		"editorCursor.foreground": "#657b83",
