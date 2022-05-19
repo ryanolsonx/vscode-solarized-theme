@@ -78,7 +78,10 @@
 		"terminal.ansiBrightBlue": "#839496",
 		"terminal.ansiBrightMagenta": "#6c71c4",
 		"terminal.ansiBrightCyan": "#93a1a1",
-		"terminal.ansiBrightWhite": "#eee8d5"
+		"terminal.ansiBrightWhite": "#eee8d5",
+		"editorBracketHighlight.foreground1": "#268bd2",
+		"editorBracketHighlight.foreground2": "#b58900",
+		"editorBracketHighlight.foreground3": "#d33682"
 	},
 	"tokenColors": [
 		{

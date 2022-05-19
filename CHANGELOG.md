@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.1.0
+- Support colored brackets using Solarized colors
+
 ## 2.0.0
 - Initial release
 
