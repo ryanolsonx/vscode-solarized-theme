@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 
+import json
 import re
 
 def get_rid_of_comments(file_name):
     with open(f'./themes/{file_name}.json', 'r') as f:
         lines = [line for line in f.readlines() if not re.match(r'^\s+//', line)]
 
+    data = ''.join(lines)
+    theme = json.loads(data)
+
     with open(f'./themes/{file_name}.json', 'w') as f:
-        f.write(''.join(lines))
+        f.write(json.dumps(theme, indent=2))
 
 get_rid_of_comments('solarized-dark-orig')
 get_rid_of_comments('solarized-light-orig')

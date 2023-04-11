@@ -132,7 +132,10 @@
       }
     },
     {
-      "scope": ["variable.language", "variable.other"],
+      "scope": [
+        "variable.language",
+        "variable.other"
+      ],
       "settings": {
         "foreground": "#268BD2"
       }
@@ -184,19 +187,28 @@
       }
     },
     {
-      "scope": ["constant.language", "meta.preprocessor"],
+      "scope": [
+        "constant.language",
+        "meta.preprocessor"
+      ],
       "settings": {
         "foreground": "#B58900"
       }
     },
     {
-      "scope": ["support.function.construct", "keyword.other.new"],
+      "scope": [
+        "support.function.construct",
+        "keyword.other.new"
+      ],
       "settings": {
         "foreground": "#CB4B16"
       }
     },
     {
-      "scope": ["constant.character", "constant.other"],
+      "scope": [
+        "constant.character",
+        "constant.other"
+      ],
       "settings": {
         "foreground": "#CB4B16"
       }
@@ -242,11 +254,17 @@
       }
     },
     {
-      "scope": ["support.constant", "support.variable"],
+      "scope": [
+        "support.constant",
+        "support.variable"
+      ],
       "settings": {}
     },
     {
-      "scope": ["support.type", "support.class"],
+      "scope": [
+        "support.type",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#859900"
       }
@@ -268,7 +286,10 @@
       }
     },
     {
-      "scope": ["meta.diff", "meta.diff.header"],
+      "scope": [
+        "meta.diff",
+        "meta.diff.header"
+      ],
       "settings": {
         "foreground": "#268BD2",
         "fontStyle": "italic"
@@ -307,7 +328,10 @@
       }
     },
     {
-      "scope": ["markup.bold", "markup.italic"],
+      "scope": [
+        "markup.bold",
+        "markup.italic"
+      ],
       "settings": {
         "foreground": "#D33682"
       }
