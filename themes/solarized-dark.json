@@ -93,7 +93,9 @@
     "terminal.ansiRed": "#dc322f",
     "terminal.ansiWhite": "#eee8d5",
     "terminal.ansiYellow": "#b58900",
-    "titleBar.activeBackground": "#002c39"
+    "titleBar.activeBackground": "#002c39",
+    "editorLineNumber.foreground": "#586e75",
+    "editorGutter.background": "#073642"
   },
   "tokenColors": [
     {

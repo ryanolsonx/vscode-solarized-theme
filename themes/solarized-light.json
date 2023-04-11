@@ -16,7 +16,7 @@
     "editor.foreground": "#657b83",
     "editor.lineHighlightBackground": "#eee8d5",
     "editor.selectionBackground": "#eee8d5",
-    "editorCursor.foreground": "#839496",
+    "editorCursor.foreground": "#657b83",
     "editorGroup.border": "#ddd6c1",
     "editorGroup.dropBackground": "#ddd6c1aa",
     "editorGroupHeader.tabsBackground": "#d9d2c2",
@@ -85,7 +85,9 @@
     "terminal.ansiYellow": "#b58900",
     "terminal.background": "#fdf6e3",
     "titleBar.activeBackground": "#eee8d5",
-    "walkThrough.embeddedEditorBackground": "#00000014"
+    "walkThrough.embeddedEditorBackground": "#00000014",
+    "editorLineNumber.foreground": "#93a1a1",
+    "editorGutter.background": "#eee8d5"
   },
   "tokenColors": [
     {
