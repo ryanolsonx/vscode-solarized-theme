@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.0.0
+- Rebased everything on Solarized from Visual Studio Code
+- From scratch
+
 ## 2.1.0
 - Support colored brackets using Solarized colors
 

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+rm -rf ~/.vscode/extensions/solarized
+ln -s ~/r/vscode-solarized-theme ~/.vscode/extensions/solarized
