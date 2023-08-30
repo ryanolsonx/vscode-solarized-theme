@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import json
+
+FILE_NAME = './themes/solarized-light-simple.json'
+
+with open(FILE_NAME, 'r') as f:
+    theme = json.loads(f.read())
+
+#theme['colors']['statusBar.background'] = ''
+
+with open(FILE_NAME, 'w') as f:
+    f.write(json.dumps(theme, indent=2))
+
