@@ -24,6 +24,12 @@
 {
   "type": "dark",
   "colors": {
+    "activityBar.background": "#002029", // darker base03
+    "editorGroup.emptyBackground": "#002029", // darker base03
+    "editorGroupHeader.noTabsBackground": "#002029", // darker base03
+    "editorGroupHeader.tabsBackground": "#002029", // darker base03
+    "tab.inactiveBackground": "#002029", // darker base03
+    "titleBar.activeBackground": "#002029", // darker base03
     "editor.background": "#002b36", // base03
     "editor.foreground": "#839496", // base0
     "editor.lineHighlightBackground": "#073642", // base02
