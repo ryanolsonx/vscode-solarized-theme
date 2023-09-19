@@ -29,6 +29,14 @@
     "editorCursor.background": "#002b36", // base03
     "editor.selectionBackground": "#586e7588", // base01 :(
     "editor.lineHighlightBackground": "#073642", // base02
+    "editorSuggestWidget.background": "#073642", // base02
+    "editorSuggestWidget.foreground": "#839496", // base0
+    "editorSuggestWidget.selectedBackground": "#586e75", // base01
+    "editorSuggestWidget.selectedForeground": "#eee8d5", // base2
+    "editorSuggestWidget.focusHighlightForeground": "#eee8d5", // base2
+    "editorSuggestWidget.highlightForeground": "#268bd2", // blue
+    "editorSuggestWidget.selectedIconForeground": "#eee8d5", // base2
+    "editorSuggestWidget.border": "#073642", // base02
     "editorBracketHighlight.foreground1": "#268bd2", // blue
     "editorBracketHighlight.foreground2": "#b58900", // yellow
     "editorBracketHighlight.foreground3": "#d33682", // magenta
