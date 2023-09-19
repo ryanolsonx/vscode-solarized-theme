@@ -25,6 +25,7 @@
   "type": "dark",
   "colors": {
     "activityBar.background": "#002029", // darker base03
+    "activityBarBadge.background": "#268bd2", // blue
     "diffEditor.insertedLineBackground": "#859900", // green
     "diffEditor.removedLineBackground": "#dc322f", // red
     "editor.background": "#002b36", // base03
@@ -55,9 +56,31 @@
     "gitDecoration.addedResourceForeground": "#859900", // green
     "gitDecoration.deletedResourceForeground": "#dc322f", // red
     "gitDecoration.modifiedResourceForeground": "#b58900", // yellow
+    "input.background": "#003847", // :/
+    "input.foreground": "#93a1a1", // :/
+    "input.placeholderForeground": "#93a1a1aa", // :/
+    "inputOption.activeBorder": "#2aa19899", // :/
+    "inputValidation.errorBackground": "#571b26", // :/
+    "inputValidation.errorBorder": "#cb4b16", // orange
+    "inputValidation.infoBackground": "#052730", // :/
+    "inputValidation.infoBorder": "#363b5f", // :/
+    "inputValidation.warningBackground": "#5d5938", // :/
+    "inputValidation.warningBorder": "#9d8a5e", // :/
+    "list.activeSelectionBackground": "#073642", // :/
+    "list.dropBackground": "#00445488", // :/
+    "list.highlightForeground": "#2aa198", // cyan
+    "list.hoverBackground": "#586e75", // base01
+    "list.inactiveSelectionBackground": "#073642", // base02
     "minimapGutter.addedBackground": "#859900", // green
     "minimapGutter.deletedBackground": "#dc322f", // red
     "minimapGutter.modifiedBackground": "#b58900", // yellow
+    "peekView.border": "#2b2b4a", // :/
+    "peekViewEditor.background": "#10192c", // :/
+    "peekViewEditor.matchHighlightBackground": "#7744aa40", // :/
+    "peekViewResult.background": "#00212b", // :/
+    "peekViewTitle.background": "#00212b", // :/
+    "sideBar.background": "#002029", // darker base03
+    "sideBarTitle.foreground": "#93a1a1", //base1
     "statusBar.background": "#93a1a1", // base1
     "statusBar.foreground": "#073642", // base02
     "tab.inactiveBackground": "#002029", // darker base03
