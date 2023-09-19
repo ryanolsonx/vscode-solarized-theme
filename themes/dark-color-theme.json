@@ -40,6 +40,9 @@
     "editorSuggestWidget.selectedBackground": "#586e75", // base01
     "editorSuggestWidget.selectedForeground": "#eee8d5", // base2
     "editorSuggestWidget.selectedIconForeground": "#eee8d5", // base2
+    "editorLineNumber.foreground": "#586e75", // base01
+    "editorLineNumber.activeForeground": "#839496", // base0 :/
+    "editorGutter.background": "#073642", // base02
     "statusBar.background": "#93a1a1", // base1
     "statusBar.foreground": "#073642", // base02
     "terminal.ansiBlack": "#073642", // base02
