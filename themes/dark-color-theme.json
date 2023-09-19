@@ -152,8 +152,15 @@
       }
     },
     {
+      "name": "([{}])",
+      "scope": "meta.brace.round, meta.brace.square, punctuation.definition.block, punctuation.definition.binding-pattern",
+      "settings": {
+        "foreground": "#268bd2" // blue
+      }
+    },
+    {
       "name": "Operator",
-      "scope": "punctuation.definition, punctuation.section, punctuation.separator, punctuation.terminator - punctuation.definition.numeric.base - keyword.operator",
+      "scope": "punctuation.section, punctuation.separator, punctuation.terminator - punctuation.definition.numeric.base - keyword.operator",
       "settings": {
         "foreground": "#859900" // green
       }
