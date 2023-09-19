@@ -25,7 +25,10 @@
   "type": "dark",
   "colors": {
     "editor.background": "#002b36", // base03
-    "editor.foreground": "#839496" // base0
+    "editor.foreground": "#839496", // base0
+    "editorBracketHighlight.foreground1": "#268bd2", // blue
+    "editorBracketHighlight.foreground2": "#b58900", // yellow
+    "editorBracketHighlight.foreground3": "#d33682" // magenta
   },
   "tokenColors": [
     {
