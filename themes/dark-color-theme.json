@@ -26,40 +26,40 @@
   "colors": {
     "editor.background": "#002b36", // base03
     "editor.foreground": "#839496", // base0
-    "editorCursor.background": "#002b36", // base03
-    "editor.selectionBackground": "#586e7588", // base01 :(
     "editor.lineHighlightBackground": "#073642", // base02
-    "editorSuggestWidget.background": "#073642", // base02
-    "editorSuggestWidget.foreground": "#839496", // base0
-    "editorSuggestWidget.selectedBackground": "#586e75", // base01
-    "editorSuggestWidget.selectedForeground": "#eee8d5", // base2
-    "editorSuggestWidget.focusHighlightForeground": "#eee8d5", // base2
-    "editorSuggestWidget.highlightForeground": "#268bd2", // blue
-    "editorSuggestWidget.selectedIconForeground": "#eee8d5", // base2
-    "editorSuggestWidget.border": "#073642", // base02
+    "editor.selectionBackground": "#586e7588", // base01 :(
     "editorBracketHighlight.foreground1": "#268bd2", // blue
     "editorBracketHighlight.foreground2": "#b58900", // yellow
     "editorBracketHighlight.foreground3": "#d33682", // magenta
+    "editorCursor.background": "#002b36", // base03
+    "editorSuggestWidget.background": "#073642", // base02
+    "editorSuggestWidget.border": "#073642", // base02
+    "editorSuggestWidget.focusHighlightForeground": "#eee8d5", // base2
+    "editorSuggestWidget.foreground": "#839496", // base0
+    "editorSuggestWidget.highlightForeground": "#268bd2", // blue
+    "editorSuggestWidget.selectedBackground": "#586e75", // base01
+    "editorSuggestWidget.selectedForeground": "#eee8d5", // base2
+    "editorSuggestWidget.selectedIconForeground": "#eee8d5", // base2
     "statusBar.background": "#93a1a1", // base1
     "statusBar.foreground": "#073642", // base02
-    "terminal.background": "#002b36", // base03
-    "terminal.foreground": "#839496", // base0
     "terminal.ansiBlack": "#073642", // base02
-    "terminal.ansiRed": "#dc322f", // red
-    "terminal.ansiGreen": "#859900", // green
-    "terminal.ansiYellow": "#b58900", // yellow
     "terminal.ansiBlue": "#268bd2", // blue
-    "terminal.ansiMagenta": "#d33682", // magenta
-    "terminal.ansiCyan": "#2aa198", // cyan
-    "terminal.ansiWhite": "#eee8d5", // base2
     "terminal.ansiBrightBlack": "#002b36", // base03
-    "terminal.ansiBrightRed": "#cb4b16", // orange
-    "terminal.ansiBrightGreen": "#586e75", // base01
-    "terminal.ansiBrightYellow": "#657b83", // base00
     "terminal.ansiBrightBlue": "#839496", // base0
-    "terminal.ansiBrightMagenta": "#6c71c4", // violet
     "terminal.ansiBrightCyan": "#93a1a1", // base1
-    "terminal.ansiBrightWhite": "#fdf6e3" // base3
+    "terminal.ansiBrightGreen": "#586e75", // base01
+    "terminal.ansiBrightMagenta": "#6c71c4", // violet
+    "terminal.ansiBrightRed": "#cb4b16", // orange
+    "terminal.ansiBrightWhite": "#fdf6e3", // base3
+    "terminal.ansiBrightYellow": "#657b83", // base00
+    "terminal.ansiCyan": "#2aa198", // cyan
+    "terminal.ansiGreen": "#859900", // green
+    "terminal.ansiMagenta": "#d33682", // magenta
+    "terminal.ansiRed": "#dc322f", // red
+    "terminal.ansiWhite": "#eee8d5", // base2
+    "terminal.ansiYellow": "#b58900", // yellow
+    "terminal.background": "#002b36", // base03
+    "terminal.foreground": "#839496" // base0
   },
   "tokenColors": [
     {
