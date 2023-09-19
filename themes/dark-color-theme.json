@@ -68,7 +68,18 @@
     "terminal.ansiWhite": "#eee8d5", // base2
     "terminal.ansiYellow": "#b58900", // yellow
     "terminal.background": "#002b36", // base03
-    "terminal.foreground": "#839496" // base0
+    "terminal.foreground": "#839496", // base0
+    "diffEditor.removedLineBackground": "#dc322f", // red
+    "diffEditor.insertedLineBackground": "#859900", // green
+    "minimapGutter.addedBackground": "#859900", // green
+    "minimapGutter.deletedBackground": "#dc322f", // red
+    "minimapGutter.modifiedBackground": "#b58900", // yellow
+    "editorGutter.addedBackground": "#859900", // green
+    "gitDecoration.addedResourceForeground": "#859900", // green
+    "editorGutter.modifiedBackground": "#b58900", // yellow
+    "gitDecoration.modifiedResourceForeground": "#b58900", // yellow
+    "editorGutter.deletedBackground": "#dc322f", // red
+    "gitDecoration.deletedResourceForeground": "#dc322f" // red
   },
   "tokenColors": [
     {
