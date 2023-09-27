@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.5.0
+
+- Add Solarized Light+ (Beta) to match up with dark beta
+
 ## 2.4.0
 
 - Add high contrast dark theme (beta)
