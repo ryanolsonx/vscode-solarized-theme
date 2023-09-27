@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.4.0
+
+- Add high contrast dark theme (beta)
+
 ## 2.3.1
 
 - Simplify solarized dark beta
