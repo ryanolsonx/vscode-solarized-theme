@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.3.1
+
+- Simplify solarized dark beta
+
 ## 2.3.0
 
 - Introduced rewrite of solarized dark under the name "Solarized Dark+ (Beta)"
