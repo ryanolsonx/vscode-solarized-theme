@@ -43,6 +43,11 @@
     "editorGutter.modifiedBackground": "#b58900", // yellow
     "editorLineNumber.activeForeground": "#839496", // base0 :/
     "editorLineNumber.foreground": "#586e75", // base01
+    "editorWidget.background": "#073642", // base02
+    "editorWidget.foreground": "#839496", // base0
+    "selection.background": "#586e75", // base01
+    "menu.selectionBackground": "#586e75", // base01
+    "menu.selectionForeground": "#839496", // base0
     "editorSuggestWidget.background": "#073642", // base02
     "editorSuggestWidget.border": "#073642", // base02
     "editorSuggestWidget.focusHighlightForeground": "#eee8d5", // base2
