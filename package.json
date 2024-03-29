@@ -21,29 +21,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Solarized Dark+",
+        "label": "Solarized Dark+ Original",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-color-theme.json"
+        "path": "./themes/legacy-dark-color-theme.json"
       },
       {
-        "label": "Solarized Dark+ (Beta)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-beta-color-theme.json"
-      },
-      {
-        "label": "Solarized Dark+ High Contrast (Beta)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-hc-beta-color-theme.json"
-      },
-      {
-        "label": "Solarized Light+",
+        "label": "Solarized Light+ Original",
         "uiTheme": "vs",
-        "path": "./themes/light-color-theme.json"
-      },
-      {
-        "label": "Solarized Light+ (Beta)",
-        "uiTheme": "vs",
-        "path": "./themes/light-beta-color-theme.json"
+        "path": "./themes/legacy-light-color-theme.json"
       }
     ]
   }
