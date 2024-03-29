@@ -1,1 +1,75 @@
-#!/usr/bin/env python
+#!/usr/bin/env ruby
+
+# gem install color_math
+
+require 'yaml'
+require 'json'
+require 'color_math'
+
+def gen_theme(colors_path)
+    config = YAML.load_file "colors/#{colors_path}"
+
+    name = config["name"]
+    dark = config["dark"]
+    file = "themes/#{config["file"]}"
+
+    # HEX
+    base03 = config["base03"]
+    base02 = config["base02"]
+    base01 = config["base01"]
+    base00 = config["base00"]
+    base0 = config["base0"]
+    base1 = config["base1"]
+    base2 = config["base2"]
+    base3 = config["base3"]
+    yellow = config["yellow"]
+    orange = config["orange"]
+    red = config["red"]
+    magenta = config["magenta"]
+    violet = config["violet"]
+    blue = config["blue"]
+    cyan = config["cyan"]
+    green = config["green"]
+
+    # base03_cl = ColorMath.from_hex(base03)
+    # base02_cl = ColorMath.from_hex(base02)
+    # base01_cl = ColorMath.from_hex(base01)
+    # base00_cl = ColorMath.from_hex(base00)
+    # base0_cl = ColorMath.from_hex(base0)
+    # base1_cl = ColorMath.from_hex(base1)
+    # base2_cl = ColorMath.from_hex(base2)
+    # base3_cl = ColorMath.from_hex(base3)
+    # yellow_cl = ColorMath.from_hex(yellow)
+    # orange_cl = ColorMath.from_hex(orange)
+    # red_cl = ColorMath.from_hex(red)
+    # magenta_cl = ColorMath.from_hex(magenta)
+    # violet_cl = ColorMath.from_hex(violet)
+    # blue_cl = ColorMath.from_hex(blue)
+    # cyan_cl = ColorMath.from_hex(cyan)
+    # green_cl = ColorMath.from_hex(green)
+    
+    text = File.read("bin/template.json")
+    new_text = (
+        text.gsub(/theme-name/, name)
+            .gsub(/base03/, base03)
+            .gsub(/base02/, base02)
+            .gsub(/base01/, base01)
+            .gsub(/base00/, base00)
+            .gsub(/base0/, base0)
+            .gsub(/base1/, base1)
+            .gsub(/base2/, base2)
+            .gsub(/base3/, base3)
+            .gsub(/yellow/, yellow)
+            .gsub(/orange/, orange)
+            .gsub(/red/, red)
+            .gsub(/magenta/, magenta)
+            .gsub(/violet/, violet)
+            .gsub(/blue/, blue)
+            .gsub(/cyan/, cyan)
+            .gsub(/green/, green)
+    )
+    File.open(file, "w") { |f| f.puts new_text }
+end
+
+gen_theme "dark.yaml"
+gen_theme "light.yaml"

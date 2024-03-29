@@ -21,14 +21,24 @@
   "contributes": {
     "themes": [
       {
+        "label": "Solarized Dark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized-dark-color-theme.json"
+      },
+      {
+        "label": "Solarized Light+",
+        "uiTheme": "vs",
+        "path": "./themes/solarized-light-color-theme.json"
+      },
+      {
         "label": "Solarized Dark+ Original",
         "uiTheme": "vs-dark",
-        "path": "./themes/legacy-dark-color-theme.json"
+        "path": "./themes/legacy-solarized-dark-color-theme.json"
       },
       {
         "label": "Solarized Light+ Original",
         "uiTheme": "vs",
-        "path": "./themes/legacy-light-color-theme.json"
+        "path": "./themes/legacy-solarized-light-color-theme.json"
       }
     ]
   }
