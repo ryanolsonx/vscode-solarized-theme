@@ -1,6 +1,6 @@
 {
   "name": "solarized",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "displayName": "Solarized",
   "description": "Optimized Solarized theme for VS Code",
   "publisher": "ryanolsonx",
@@ -23,12 +23,17 @@
       {
         "label": "Solarized Dark+",
         "uiTheme": "vs-dark",
-        "path": "./themes/solarized-dark-color-theme.json"
+        "path": "./themes/legacy-solarized-dark-color-theme.json"
+      },
+      {
+        "label": "Solarized Dark+ (High Contrast)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized-dark-high-contrast-color-theme.json"
       },
       {
         "label": "Solarized Light+",
         "uiTheme": "vs",
-        "path": "./themes/solarized-light-color-theme.json"
+        "path": "./themes/legacy-solarized-light-color-theme.json"
       },
       {
         "label": "Solarized Dark+ Original",

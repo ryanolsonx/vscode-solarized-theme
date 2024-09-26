@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.6.0
+
+- Add Solarized Dark+ High Contrasts (completely from scratch)
+
 ## 2.5.0
 
 - Add Solarized Light+ (Beta) to match up with dark beta
